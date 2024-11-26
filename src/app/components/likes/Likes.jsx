@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { fetchMovies } from '../../../features/redux/slices/moviesSlice';
+import fetchMovies from '../../../features/redux/actions/moviesAction';
 
 export const Likes = () => { 
     const dispatch = useDispatch();
