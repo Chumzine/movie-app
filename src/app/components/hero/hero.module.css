@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.container {
+    display: flex;
+    position: relative;
+    margin-top: 150px;
+}
+
+.search {
+
+}
+
+.search .shows {
+    margin-top: -27px;
+}
+
+.search p {
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
+
+.find {
+    color: #030303;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.shows {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 59px;
+    font-weight: 400;
+    background: linear-gradient(90deg, #2203FF 10%, #C40D60 30%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 647px;
+    height: 123px;
+}
+
+.search p {
+    color: #676767;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    width: 647px;
+}
+
+.vector {
+    width: 744px;
+    height: 351px;
+    border: 1.94px;
+    position: absolute;
+    left: 195px;
+    top: 12px;
+}
+
+.spiderman {
+    width: 293px;
+    height: 430px;
+    top: -95px;
+    left: 417px;
+    position: absolute;
+    z-index: 1;
+}
+
+.guardians {
+    width: 260px;
+    height: 397px;
+    top: -152px;
+    left: 605px;
+    position: absolute;
+    z-index: 0;
+}
+
+.play {
+    position: absolute;
+    left: 540px;
+    top: 95px;
+    z-index: 2;
+    width: 65px;
+    height: 65px;
+}
